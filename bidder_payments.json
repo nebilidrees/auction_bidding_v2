@@ -1,0 +1,58 @@
+{
+    "B001": {
+        "name": "LUTAAYA NABIL IDRIS",
+        "contact": "0741526593",
+        "gender": "MALE",
+        "address": "BUZIGA",
+        "items": [
+            {
+                "item_id": "ITM01",
+                "item": "Laptop",
+                "bid": 78000000.0,
+                "payment_status": "Completed",
+                "date_placed": "24-09-2026",
+                "time_placed": "12:20:18 PM"
+            },
+            {
+                "item_id": "ITM02",
+                "item": "Watch",
+                "bid": 200000.0,
+                "date_placed": "24-09-2026",
+                "time_placed": "12:21:09 PM",
+                "payment_status": "Completed"
+            },
+            {
+                "item_id": "ITM07",
+                "item": "Playstation",
+                "bid": 1000000.0,
+                "date_placed": "24-09-2026",
+                "time_placed": "12:28:33 PM",
+                "payment_status": "Completed"
+            },
+            {
+                "item_id": "ITM06",
+                "item": "Headphones",
+                "bid": 3000000.0,
+                "date_placed": "24-09-2026",
+                "time_placed": "12:29:09 PM",
+                "payment_status": "Completed"
+            }
+        ]
+    },
+    "B002": {
+        "name": "idris",
+        "contact": "7889993",
+        "gender": "male",
+        "address": "kibuli",
+        "items": [
+            {
+                "item_id": "ITM01",
+                "item": "Laptop",
+                "bid": 6000000.0,
+                "date_placed": "07-10-2026",
+                "time_placed": "11:08:19 AM",
+                "payment_status": "Completed"
+            }
+        ]
+    }
+}

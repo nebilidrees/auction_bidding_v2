@@ -1,0 +1,26 @@
+[
+    {
+        "name": "idris",
+        "contact": "7889993",
+        "address": "kibuli",
+        "bidders_id": "B002",
+        "gender": "male",
+        "birth_year": "10-12-2004"
+    },
+    {
+        "name": "lutaaya",
+        "contact": "12323",
+        "address": "kibuli",
+        "bidders_id": "B002",
+        "gender": "male",
+        "birth_year": "11-2-2003"
+    },
+    {
+        "name": "idris",
+        "contact": "34222",
+        "address": "kla",
+        "bidders_id": "B003",
+        "gender": "male",
+        "birth_year": "1-03-2002"
+    }
+]
