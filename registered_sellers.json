@@ -1,0 +1,18 @@
+[
+    {
+        "seller_id": "SEL-0001",
+        "name": "lutaaya nabil",
+        "company": "TECH",
+        "contact": "0741526593",
+        "email_address": "nebilidrees@gmail.com",
+        "seller_status": "Registered"
+    },
+    {
+        "seller_id": "SEL-0002",
+        "name": "idris idris",
+        "company": "KAPEESA",
+        "contact": "070459412",
+        "email_address": "kapeesa@gmail.com",
+        "seller_status": "Registered"
+    }
+]

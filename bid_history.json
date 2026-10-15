@@ -1,0 +1,26 @@
+[
+    {
+        "auction_id": "A101",
+        "bidder_id": "B002",
+        "bidder_name": "ABDALLAH IDRIS",
+        "item_id": "ITM-0010",
+        "item_name": "Ipod",
+        "amount": 451000.0,
+        "date": "15-10-2026",
+        "time": "11:15:29 AM",
+        "bid_status": "Winning bid",
+        "payment_status": "Completed"
+    },
+    {
+        "auction_id": "A102",
+        "bidder_id": "B001",
+        "bidder_name": "LUTAAYA IDRIS",
+        "item_id": "ITM-0005",
+        "item_name": "Camera",
+        "amount": 1300000.0,
+        "date": "15-10-2026",
+        "time": "12:46:13 PM",
+        "bid_status": "Winning bid",
+        "payment_status": "Completed"
+    }
+]

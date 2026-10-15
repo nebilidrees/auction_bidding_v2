@@ -15,7 +15,8 @@ class Auction:
     def end_auction(self):
         print(f"Auction '{self.auction_name}' has ended.")
 
-    def find_highest_bid(self, bids_list):
+    @classmethod
+    def find_highest_bid(cls, bids_list):
         if not bids_list:
             return None
 
@@ -46,6 +47,20 @@ class Seller:
         self.email_address = email_address
         self.seller_status = seller_status
         self.Auction = Auction
+
+    def generate_seller_id(self, existing_sellers):
+        """Create the next unused seller ID from saved seller records."""
+        highest_number = 0
+
+        for seller in existing_sellers:
+            seller_id = seller.seller_id
+            if seller_id.startswith("SEL-") and seller_id[4:].isdigit():
+                number = int(seller_id[4:])
+                if number > highest_number:
+                    highest_number = number
+
+        self.seller_id = f"SEL-{highest_number + 1:04}"
+        return self.seller_id
 
     def reserve_price(self, item, price):
         print(f"Reserve price set to ${price} for item {item.item_name}.")
@@ -83,8 +98,6 @@ class AuctionItem:
         self.status = status
         self.__seller = seller
         self.auction = auction
-        # An item has no specification at first. It will later store an
-        # ItemSpecification object when the item is loaded.
         self.specification: "ItemSpecification | None" = None
 
     def update_item_status(self, new_status):
@@ -93,6 +106,9 @@ class AuctionItem:
 
     def verify_reserve_price(self, bid_amount):
         return bid_amount >= self.__reserved_price
+
+    def meets_starting_price(self, bid_amount):
+        return bid_amount >= self.starting_price
 
 
 class ItemSpecification:
@@ -119,8 +135,23 @@ class Bidder:
         self.birth_year = birth_year
         self.Auction = Auction
 
+    def generate_bidder_id(self, existing_bidders):
+        highest_number = 0
+
+        for bidder in existing_bidders:
+            if bidder.bidders_id:
+                number = int(bidder.bidders_id[1:])
+                if number > highest_number:
+                    highest_number = number
+
+        self.__bidders_id = f"B{highest_number + 1:03}"
+        return self.__bidders_id
+
     def __str__(self):
         return f"Name: {self.name}\nContact: {self.contact}\nAddress: {self.address}\nID: {self.__bidders_id}\nGender:{self.gender}\nBirth year:{self.birth_year}"
+
+    def make_payment(self):
+        print(f"{self.name}") 
 
     @property
     def bidders_id(self):
@@ -153,7 +184,7 @@ class Bid:
             print("Bid amount is lower than the item's starting price!")
 
     def validate_amount(self):
-        return self.amount >= self.auction_item.starting_price
+        return self.auction_item.meets_starting_price(self.amount)
 
     def update_status(self):
         print("Bid status updated successfully.")
@@ -181,6 +212,13 @@ class SuccessfulWinner(Bidder):
         self.winning_item = winning_item
         self.final_bid = final_bid
 
+    def make_payment(self):
+        """Polymorphism"""
+        print(
+            f"{self.name} is making a payment of {self.final_bid} "
+            f"for {self.winning_item.item_name}."
+        )
+
     def display_winner_details(self):
         print(f"\n--- Winner Summary ---")
         print(f"Winner ID: {self.winner_id}")
@@ -199,7 +237,6 @@ class Payment:
         self.transaction_id = transaction_id
         self.currency = currency
         self.payment_method = payment_method
-
     def process_payment(self):
         print(
             f"Processing payment of {self.amount} {self.currency} via {self.payment_method} (Transaction ID: {self.transaction_id})..."
@@ -209,5 +246,3 @@ class Payment:
 
     def refund(self):
         print(f"Refund of {self.amount} {self.currency} processed successfully.")
-
-

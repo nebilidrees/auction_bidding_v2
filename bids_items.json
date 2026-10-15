@@ -1,42 +1,104 @@
 {
-  "LAPTOP": {
-    "condition": "New",
-    "base price": 500000,
-    "status": "AVAILABLE"
-  },
-  "WATCH": {
-    "condition": "Used",
-    "base price": 150000,
-    "status": "AVAILABLE"
-  },
-  "PHONE": {
-    "condition": "New",
-    "base price": 800000,
-    "status": "CLOSED"
-  },
-  "TABLET": {
-    "condition": "Used",
-    "base price": 450000,
-    "status": "AVAILABLE"
-  },
-  "CAMERA": {
-    "condition": "New",
-    "base price": 1200000,
-    "status": "AVAILABLE"
-  },
-  "HEADPHONES": {
-    "condition": "New",
-    "base price": 250000,
-    "status": "AVAILABLE"
-  },
-  "PLAYSTATION": {
-    "condition": "Used",
-    "base price": 900000,
-    "status": "AVAILABLE"
-  },
-  "SMARTWATCH": {
-    "condition": "New",
-    "base price": 300000,
-    "status": "AVAILABLE"
-  }
+    "ITM-0001": {
+        "condition": "New",
+        "base price": 500000,
+        "status": "AVAILABLE",
+        "name": "LAPTOP",
+        "seller_id": "SEL-0001",
+        "seller_name": "Nabirye Sarah",
+        "event_name": "Tech & Gadgets Expo",
+        "event_location": "Kampala"
+    },
+    "ITM-0002": {
+        "condition": "Used",
+        "base price": 150000,
+        "status": "AVAILABLE",
+        "name": "WATCH",
+        "seller_id": "SEL-0002",
+        "seller_name": "Ssemanda John",
+        "event_name": "Tech & Gadgets Expo",
+        "event_location": "Kampala"
+    },
+    "ITM-0003": {
+        "condition": "New",
+        "base price": 800000,
+        "status": "CLAIMED",
+        "name": "PHONE",
+        "seller_id": "SEL-0003",
+        "seller_name": "Akello Grace",
+        "event_name": "Tech & Gadgets Expo",
+        "event_location": "Kampala"
+    },
+    "ITM-0004": {
+        "condition": "Used",
+        "base price": 450000,
+        "status": "AVAILABLE",
+        "name": "TABLET",
+        "seller_id": "SEL-0001",
+        "seller_name": "Nabirye Sarah",
+        "event_name": "Tech & Gadgets Expo",
+        "event_location": "Kampala"
+    },
+    "ITM-0005": {
+        "condition": "New",
+        "base price": 1200000,
+        "status": "AVAILABLE",
+        "name": "CAMERA",
+        "seller_id": "SEL-0004",
+        "seller_name": "Mugisha Peter",
+        "event_name": "Tech & Gadgets Expo",
+        "event_location": "Kampala"
+    },
+    "ITM-0006": {
+        "condition": "New",
+        "base price": 250000,
+        "status": "AVAILABLE",
+        "name": "HEADPHONES",
+        "seller_id": "SEL-0002",
+        "seller_name": "Ssemanda John",
+        "event_name": "Tech & Gadgets Expo",
+        "event_location": "Kampala"
+    },
+    "ITM-0007": {
+        "condition": "Used",
+        "base price": 900000,
+        "status": "AVAILABLE",
+        "name": "PLAYSTATION",
+        "seller_id": "SEL-0003",
+        "seller_name": "Akello Grace",
+        "event_name": "Tech & Gadgets Expo",
+        "event_location": "Kampala"
+    },
+    "ITM-0008": {
+        "condition": "New",
+        "base price": 300000,
+        "status": "AVAILABLE",
+        "name": "SMARTWATCH",
+        "seller_id": "SEL-0004",
+        "seller_name": "Mugisha Peter",
+        "event_name": "Tech & Gadgets Expo",
+        "event_location": "Kampala"
+    },
+    "ITM-0009": {
+        "name": "Phone",
+        "condition": "New",
+        "category": "Gadget",
+        "base price": 670000.0,
+        "status": "AVAILABLE",
+        "seller_id": "SEL-0001",
+        "seller_name": "lutaaya nabil",
+        "event_name": "Tech & Gadgets Expo",
+        "event_location": "Kampala"
+    },
+    "ITM-0010": {
+        "name": "Ipod",
+        "condition": "Used",
+        "category": "Smartphone",
+        "base price": 450000.0,
+        "status": "AVAILABLE",
+        "seller_id": "SEL-0002",
+        "seller_name": "idris idris",
+        "event_name": "Tech & Gadgets Expo",
+        "event_location": "Kampala"
+    }
 }

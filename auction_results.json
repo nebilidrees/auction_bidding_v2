@@ -1,0 +1,184 @@
+[
+    {
+        "auction_id": "A101",
+        "auction_name": "Tech & Gadgets Expo",
+        "date": "2026-09-22",
+        "location": "Kampala",
+        "items": [
+            {
+                "item_id": "ITM-0001",
+                "item_name": "Laptop",
+                "starting_price": 500000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0002",
+                "item_name": "Watch",
+                "starting_price": 150000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0003",
+                "item_name": "Phone",
+                "starting_price": 800000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0004",
+                "item_name": "Tablet",
+                "starting_price": 450000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0005",
+                "item_name": "Camera",
+                "starting_price": 1200000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0006",
+                "item_name": "Headphones",
+                "starting_price": 250000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0007",
+                "item_name": "Playstation",
+                "starting_price": 900000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0008",
+                "item_name": "Smartwatch",
+                "starting_price": 300000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0009",
+                "item_name": "Phone",
+                "starting_price": 670000.0,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0010",
+                "item_name": "Ipod",
+                "starting_price": 450000.0,
+                "valid_bid_count": 1,
+                "sale_status": "Sold",
+                "winner_id": "B002",
+                "winner_name": "ABDALLAH IDRIS",
+                "final_bid": 451000.0,
+                "payment_status": "Completed"
+            }
+        ]
+    },
+    {
+        "auction_id": "A102",
+        "auction_name": "Tech & Gadgets Expo",
+        "date": "2026-09-22",
+        "location": "Kampala",
+        "items": [
+            {
+                "item_id": "ITM-0001",
+                "item_name": "Laptop",
+                "starting_price": 500000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0002",
+                "item_name": "Watch",
+                "starting_price": 150000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0003",
+                "item_name": "Phone",
+                "starting_price": 800000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0004",
+                "item_name": "Tablet",
+                "starting_price": 450000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0005",
+                "item_name": "Camera",
+                "starting_price": 1200000,
+                "valid_bid_count": 1,
+                "sale_status": "Sold",
+                "winner_id": "B001",
+                "winner_name": "LUTAAYA IDRIS",
+                "final_bid": 1300000.0,
+                "payment_status": "Completed"
+            },
+            {
+                "item_id": "ITM-0006",
+                "item_name": "Headphones",
+                "starting_price": 250000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0007",
+                "item_name": "Playstation",
+                "starting_price": 900000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0008",
+                "item_name": "Smartwatch",
+                "starting_price": 300000,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0009",
+                "item_name": "Phone",
+                "starting_price": 670000.0,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            },
+            {
+                "item_id": "ITM-0010",
+                "item_name": "Ipod",
+                "starting_price": 450000.0,
+                "valid_bid_count": 0,
+                "sale_status": "Unsold",
+                "payment_status": "Not applicable"
+            }
+        ]
+    }
+]

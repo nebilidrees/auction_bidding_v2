@@ -1,26 +1,18 @@
 [
     {
-        "name": "idris",
-        "contact": "7889993",
-        "address": "kibuli",
-        "bidders_id": "B002",
-        "gender": "male",
-        "birth_year": "10-12-2004"
+        "name": "LUTAAYA IDRIS",
+        "contact": "0741526593",
+        "address": "BUZIGA",
+        "bidders_id": "B001",
+        "gender": "MALE",
+        "birth_year": "16-06-2004"
     },
     {
-        "name": "lutaaya",
-        "contact": "12323",
-        "address": "kibuli",
+        "name": "ABDALLAH IDRIS",
+        "contact": "0753765120",
+        "address": "KIBULI",
         "bidders_id": "B002",
-        "gender": "male",
-        "birth_year": "11-2-2003"
-    },
-    {
-        "name": "idris",
-        "contact": "34222",
-        "address": "kla",
-        "bidders_id": "B003",
-        "gender": "male",
-        "birth_year": "1-03-2002"
+        "gender": "MALE",
+        "birth_year": "17-01-2000"
     }
 ]
